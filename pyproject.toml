@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "todo-catcher"
+version = "0.1.0"
+description = "A PIP installable package that will grab all your todos and put it in a nice MD file"
+authors = ["Manfredi Miraula manfredi.miraula@gmail.com"]
+license = "MIT"  # or another license, as you see fit
+readme = "README.md"  # path to your README file
+homepage = "https://github.com/manfredimiraula/todo-catcher"
+repository = "https://github.com/manfredimiraula/todo-catcher"
+documentation = "https://your_project_name.readthedocs.io"
+
+# Specify your python version
+[tool.poetry.dependencies]
+python = "^3.9"  # or your desired version
+pre-commit="3.3.3"
+ruff="*"
+black="*"
+flake8="*"
+
+
+# Development dependencies
+[tool.poetry.dev-dependencies]
+
+
+
+# Build settings
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
